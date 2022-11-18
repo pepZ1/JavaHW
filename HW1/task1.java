@@ -1,8 +1,6 @@
 // Реализовать таблицу истинности т.е у нас есть p = false и q = true.
 // Чему будет равно p & q == ? , ? - вынести в таблицу.
 
-package HW1;
-
 public class task1 {
     public static void main(String[] args) {
         boolean[] bool = {false, false, true, false, false, true, true, true};
