@@ -8,17 +8,17 @@ public class task1 {
 
     public static void main(String[] args) {
 
-        List<Integer> Argoray = new ArrayList<Integer>();
-        Argoray.addAll(Arrays.asList(1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6));
-        System.out.println(Argoray);
+        List<Integer> Evenray = new ArrayList<Integer>();
+        Evenray.addAll(Arrays.asList(1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6));
+        System.out.println(Evenray);
 
-        for (int i = 0; i < Argoray.size(); i++) {
+        for (int i = 0; i < Evenray.size(); i++) {
 
-            if (Argoray.get(i) % 2 == 0) {
-                Argoray.remove(i);
+            if (Evenray.get(i) % 2 == 0) {
+                Evenray.remove(i);
                 i--;
             }
         }
-        System.out.print(Argoray);
+        System.out.print(Evenray);
     }
 }
